@@ -12,5 +12,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//2修改
+@property (copy  , nonatomic) NSString *str;
 
 @end
